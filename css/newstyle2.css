@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+}
+body {
+  font-family: "Monserrat", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 70px;
+	font-weight:500;
+}
+
+.fc {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+	border: 3px black solid;
+	margin: 20px;
+	padding: 10px 20px;
+}
+
+nav {
+	padding: 35px 0px 35px 0px;
+	background-color: red;
+
+}
+
+header {
+}
+
+section {
+	background-color: purple;
+	padding: 5px;
+	margin: 10px;
+}
+
+.lcolumn {
+	float: left;
+	width: 30%;
+	border-right: 3px black solid;
+	padding: 10px;
+}
+
+.rcolumn {
+	float: left;
+	width: 65%;
+	padding: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p {
+font-weight:300px;
+}
+
+footer {
+  background-color:red;
+  text-align: center;
+  font-size: 20px;
+}

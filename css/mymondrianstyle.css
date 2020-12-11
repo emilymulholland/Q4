@@ -1,0 +1,139 @@
+body, html {
+    background-color: black;
+}
+#painting {
+    background-color: #EEBED4;
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0px #8d8d8d;
+}
+#toprow {
+	height: 50px;
+}
+#medtopbox {
+	width: 140px;
+	height: 50px;
+}
+.right {
+	float: right;
+}
+#divider1 {
+	height: 50px;
+	width: 10px;
+}
+.white {
+	background-color: white;
+}
+.hotpink {
+	background-color: #EB75AA;
+}
+#bigtopbox {
+	width: 290px;
+	height: 50px;
+} 
+.darkpurple {
+	background-color: #6B364E;
+}
+#divider2 {
+	height: 50px;
+	width: 10px;
+}
+#topleftcolumn {
+
+}
+.littletopbox {
+	width: 20px;
+	height: 20px;
+}
+#divider3 {
+	height: 10px;
+	width: 20px;
+}
+#divider4 {
+	height: 50px;
+	width: 10px;
+}
+#topleftcolumn2 {
+
+}
+#divider5 {
+	height: 10px;
+	width: 20px;
+}
+.lightpink {
+	background-color: #F5A09F;
+}
+.lightpurple {
+	background-color: #E69FF5;
+}
+#midrow {
+	width: 500px;
+	height: 10px;
+}
+#middlerow {
+	height: 225px;
+}
+#bigmidbox {
+	width: 350px;
+	height: 225px;
+}
+#divider6 {
+	height: 225px;
+	width: 10px;
+}
+#middlecolumn {
+
+}
+.midsmall {
+	width: 30px;
+	height: 107.5px;
+}
+#divider7 {
+	width: 30px;
+	height: 10px;
+}
+#divider8 {
+	height: 225px;
+	width: 10px;
+}
+#medmidbox {
+	width: 100px;
+	height: 225px;
+}
+#midrow2 {
+	width: 500px;
+	height: 10px;
+}
+.brightpink {
+	background-color: #F5007A;
+}
+#bottomrightcolumn {
+
+}
+.tallbotbox {
+	width: 120px;
+	height: 140px;
+}
+.divider9 {
+	width: 120px;
+	height: 10px;
+}
+.shortbotbox {
+	width: 120px;
+	height: 55px;
+}
+#divider10 {
+	width: 10px;
+	height: 205px;
+}
+#bigbotbox {
+	width: 240px;
+	height: 205px;
+}
+#divider11 {
+	width: 10px;
+	height: 205px;
+}

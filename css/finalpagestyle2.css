@@ -1,0 +1,159 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+body {
+  background-color: #0D2025;
+}
+
+.fc {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+ul {
+	list-style: none;
+
+}
+
+li {
+	display: inline;
+	padding: 10px 20px;
+	margin: 5px;
+	text-decoration: none;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+nav {
+	padding: 20px 0px 20px 0px;
+  font-size: 14px;
+}
+
+h1 {
+  	font-family: 'Nunito', sans-serif;
+  	color: white;
+  	font-size: 18px;
+  	padding: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #7DAB9B;
+  font-size: 20px;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #E47855;
+}
+
+img {
+  height: 75px;
+}
+
+button {
+  background-color: #E47855;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.fc2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+#grid-container {
+  display: grid;
+  grid-template-rows: 100vh auto 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "top top top"
+  "aside main main2"
+  "footer footer footer";
+  grid-gap: 1vh;
+}
+
+#top {
+  grid-area: top;
+    background: url(../images/fislands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px #e47855 solid ;
+}
+h2 {
+  font-family: 'Nunito', sans-serif;
+  color: #7DAB9B;
+  font-weight: 800;
+  font-size: 34pt;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, .5);
+
+}
+h3 {
+  font-family: 'Nunito', sans-serif;
+  color: #e47855;
+  font-weight: 800;
+  text-align: center;
+  border-bottom: 2px #e47855 solid;
+  padding-top: 20px;
+}
+
+#aside {
+  grid-area: aside;
+  color: white;
+}
+
+#main {
+  grid-area: main;
+  color: white;
+}
+
+#main2 {
+  grid-area: main2;
+  color: white;
+}
+
+#footer {
+  grid-area: footer;
+  text-align: center;
+}
+.pics {
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 5px;
+}
+h4 {
+  font-family: 'Nunito', sans-serif;
+  color: #e47855;
+  font-weight: 800;
+  text-align: center;
+}
+
+#link {
+  color: white;
+  text-align: center;
+
+}

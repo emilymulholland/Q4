@@ -1,0 +1,174 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #0D2025;
+}
+
+.fc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+ul {
+  list-style: none;
+
+}
+
+li {
+  display: inline;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+nav {
+  padding: 20px 0px 20px 0px;
+  font-size: 14px;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #7DAB9B;
+  font-size: 20px;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #E47855;
+}
+
+#logo {
+  height: 75px;
+}
+
+button {
+  background-color: #E47855;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-rows: 125px auto auto auto auto 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "top top top"
+  "aside main main2"
+  "aside1 main1 main12"
+  "aside11 main11 main112"
+  "aside112 aside112 aside112"
+  "footer footer footer";
+  grid-gap: 1vw;
+}
+
+#top {
+  grid-area: top;
+
+}
+
+#aside {
+  grid-area: aside;
+  background-color: white;
+}
+
+#main {
+  grid-area: main;
+  background-color: white;
+}
+
+#main2 {
+  grid-area: main2;
+  background-color: white;
+}
+
+#aside1 {
+  grid-area: aside1;
+  background-color: white;
+}
+
+#main1 {
+  grid-area: main1;
+  background-color: white;
+}
+
+#main12 {
+  grid-area: main12;
+  background-color: white;
+}
+
+#aside11 {
+  grid-area: aside11;
+  background-color: white;
+  width: 500px;
+}
+
+#main11 {
+  grid-area: main11;
+  background-color: white;
+}
+
+#main112 {
+  grid-area: main112;
+  background-color: white;
+}
+
+#aside112 {
+  grid-area: aside112;
+  background-color: white;
+}
+#footer {
+  grid-area: footer;
+  text-align: center;
+}
+
+h2 {
+   font-family: 'Nunito', sans-serif;
+ color: #E47855;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.pics {
+  width: 100%;
+  overflow: hidden;
+}
+
+h3  {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: #7DAB9B;
+  font-size: 58px;
+}
+
+h4 {
+  font-family: 'Nunito', sans-serif;
+  color: #e47855;
+  font-weight: 800;
+  text-align: center;
+}
