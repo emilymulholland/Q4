@@ -147,6 +147,7 @@ h4 {
 p {
   color: white;
   font-size: 18px;
+  padding-bottom: 10px;
 }
 
 .pics {
@@ -157,7 +158,7 @@ p {
   padding-bottom: 20px;
 }
 
-button {
+.button {
   background-color: #89aabf;
   padding: 5px;
   color: white;
